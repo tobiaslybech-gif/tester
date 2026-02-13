@@ -1,5 +1,5 @@
-import SigningBaselineUI from './SigningBaselineUI';
+import SigningFlowPreview from './SigningFlowPreview';
 
 export default function App() {
-  return <SigningBaselineUI />;
+  return <SigningFlowPreview />;
 }

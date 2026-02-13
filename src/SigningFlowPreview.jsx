@@ -51,7 +51,7 @@ const identityStates = {
   REQUIRED: { label: "Identity: Required", icon: ShieldCheck, tone: "warning" },
 };
 
-export default function SigningBaselineUI() {
+export default function SigningFlowPreview() {
   const [activeTool, setActiveTool] = useState(TOOL.SELECT);
   const [activeDocId, setActiveDocId] = useState("loan");
   const [reviewOpen, setReviewOpen] = useState(false);
